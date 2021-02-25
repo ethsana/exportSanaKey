@@ -14,3 +14,5 @@ We reccomend the usage of `bee-clef`, but if you inadvertedly started `bee` with
 - Make a backup of your key in a safe place
 - Import your keys in a trusted Ethereum wallet (such as Metamask)
 - Validate if the address inside your wallet corresponds with the Ethereum address of your Bee node (`localhost:1635/addresses`)
+
+With gratitude to @jmozah <3
