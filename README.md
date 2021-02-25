@@ -1,17 +1,16 @@
 # exportSwarmKey
 
-Currently it is a pain in the A** to export bee key in to metamask as they are not compatible.
-This programe will export the private key so that people can import it in metamask or other wallets.
+`exportSwarmKey` is a command-line utility to get the Ethereum keys from your Swarm keystore file. 
 
+We reccomend the usage of `bee-clef`, but if you inadvertedly started `bee` without `bee-clef`, this is as good as it gets.
 
-Usage: go run main.go \<sourceDirContainingBeeKeys\> \<password\>
+## Requirements
+- [golang](https://golang.org/doc/install)
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-Assumption: currently it assumes that you use the same password for all the keys in the dir :-)
-
-Disclaimer: 
-- This will display the private key so please do it in a safe place.
-- There is absolutely no gurantee that your key will work or your fund security. 
-
-** Please use at your own risk **
-
-
+## HowTo
+- Clone this repo and navigate to directory
+- run `go run main.go \<sourceDirContainingBeeKeys\> \<password\>`
+- Make a backup of your key in a safe place
+- Import your keys in a trusted Ethereum wallet (such as Metamask)
+- Validate if the address inside your wallet corresponds with the Ethereum address of your Bee node (`localhost:1635/addresses`)
