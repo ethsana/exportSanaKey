@@ -17,7 +17,7 @@ import (
 func main() {
 
 	if len(os.Args) != 3 {
-		fmt.Println("exportSwarmKey <sourceDir> <password>")
+		fmt.Println("export-swarm-key <sourceDir> <password>")
 		return
 	}
 
@@ -56,12 +56,4 @@ func main() {
 
 	}
 
-
-
-
-
-
 }
-
-
-
