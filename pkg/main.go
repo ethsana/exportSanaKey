@@ -10,7 +10,7 @@ import (
 
 	keystore "github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/crypto"
-	filekeystore "github.com/ethersphere/bee/pkg/keystore/file"
+	filekeystore "github.com/ethsana/sana/pkg/keystore/file"
 	"github.com/pborman/uuid"
 )
 
