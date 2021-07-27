@@ -1,8 +1,8 @@
-# exportSwarmKey
+# exportSanamKey
 
-`exportSwarmKey` is a command-line utility to get the Ethereum keys from your Swarm keystore file. 
+`exportSanamKey` is a command-line utility to get the Ethereum keys from your Sana keystore file. 
 
-We reccomend the usage of `bee-clef`, but if you inadvertedly started `bee` without `bee-clef`, this is as good as it gets.
+We reccomend the usage of `ant-clef`, but if you inadvertedly started `ant` without `ant-clef`, this is as good as it gets.
 
 ## Requirements
 - [golang](https://golang.org/doc/install)
