@@ -1,6 +1,6 @@
-# exportSanamKey
+# exportSanaKey
 
-`exportSanamKey` is a command-line utility to get the Ethereum keys from your Sana keystore file. 
+`exportSanaKey` is a command-line utility to get the Ethereum keys from your Sana keystore file. 
 
 We reccomend the usage of `ant-clef`, but if you inadvertedly started `ant` without `ant-clef`, this is as good as it gets.
 
